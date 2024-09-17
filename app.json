@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Anotador-de-puntaje",
+    "name": "Tablas de Puntos",
     "slug": "anotador-de-puntajes",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -16,8 +16,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#09765B"
       },
       "googleServicesFile": "./google-services.json",
       "package": "com.Anotadordepuntaje"

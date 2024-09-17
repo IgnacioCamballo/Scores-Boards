@@ -44,7 +44,7 @@ export default function Main() {
         <View style={styles.publicidad}>
         <BannerAd 
           size={BannerAdSize.ANCHORED_ADAPTIVE_BANNER}
-          unitId={theme.adds.banner}
+          unitId={theme.adds.test}
           requestOptions={{
             requestNonPersonalizedAdsOnly: true
           }}

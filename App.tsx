@@ -1,11 +1,16 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar, View, StyleSheet } from 'react-native';
+import {FarkleProvider} from './src/context/FarkleProvider';
+import Main from './src/pages/Main';
+import theme from './src/theme/theme';
 
 export default function App() {
+  
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
+    <View>
+      <FarkleProvider>
+        <StatusBar backgroundColor={theme.color.base} />
+        <Main />
+      </FarkleProvider>
     </View>
   );
 }
@@ -16,5 +21,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-  },
+  }
 });

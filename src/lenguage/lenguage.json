@@ -1,0 +1,66 @@
+{
+  "title": [
+    {"lenguage": "es", "text": "10.000"},
+    {"lenguage": "en", "text": "Farkle"}
+  ],
+  "back": [
+    {"lenguage": "es", "text": "Volver"},
+    {"lenguage": "en", "text": "Back"}
+  ],
+  "name": [
+    {"lenguage": "es", "text": "Nombre"},
+    {"lenguage": "en", "text": "Name"}
+  ],
+  "lenguage": [
+    {"lenguage": "es", "text": "Idioma"},
+    {"lenguage": "en", "text": "Lenguage"}
+  ],
+  "cancel": [
+    {"lenguage": "es", "text": "Cancelar"},
+    {"lenguage": "en", "text": "Cancel"}
+  ],
+  "delete": [
+    {"lenguage": "es", "text": "Eliminar"},
+    {"lenguage": "en", "text": "Delete"}
+  ],
+  "sum": [
+    {"lenguage": "es", "text": "Sumar"},
+    {"lenguage": "en", "text": "sum"}
+  ],
+  "alertNegativeScore": [
+    {"lenguage": "es", "text": "El puntaje no puede ser menor a 0"},
+    {"lenguage": "en", "text": "The score can't be under 0"}
+  ],
+  "alertDeletePlayer": [
+    {"lenguage": "es", "text": "¿Seguro deseas eliminar a"},
+    {"lenguage": "en", "text": "Are you sure to delete"}
+  ],
+  "alertReseteScores": [
+    {"lenguage": "es", "text": "Los puntajes de todos los jugadores volveran a 0, ¿estas seguro?"},
+    {"lenguage": "en", "text": "Every player scores will go back to 0, are you sure?"}
+  ],
+  "finishEditing": [
+    {"lenguage": "es", "text": "Terminar Editado"},
+    {"lenguage": "en", "text": "Finish Editing"}
+  ],
+  "reseteScores": [
+    {"lenguage": "es", "text": "Resetear Puntos"},
+    {"lenguage": "en", "text": "Reset Scores"}
+  ],
+  "editPlayers": [
+    {"lenguage": "es", "text": "Editar Jugadores"},
+    {"lenguage": "en", "text": "Edit Players"}
+  ],
+  "rules": [
+    {"lenguage": "es", "text": "Reglas de Juego"},
+    {"lenguage": "en", "text": "Playing Rules"}
+  ],
+  "insertName": [
+    {"lenguage": "es", "text": "Ingresar el Nombre"},
+    {"lenguage": "en", "text": "Insert Name"}
+  ],
+  "addPlayer": [
+    {"lenguage": "es", "text": "Agregar Jugador"},
+    {"lenguage": "en", "text": "Add Player"}
+  ]
+}

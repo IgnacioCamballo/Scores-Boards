@@ -1,7 +1,23 @@
 {
-  "title": [
+  "generalTitle": [
+    {"lenguage": "es", "text": "Anotador de Puntos"},
+    {"lenguage": "en", "text": "Scoreboards"}
+  ],
+  "classicScore": [
+    {"lenguage": "es", "text": "Clásico"},
+    {"lenguage": "en", "text": "Classic"}
+  ],
+  "titleFarkle": [
     {"lenguage": "es", "text": "10.000"},
     {"lenguage": "en", "text": "Farkle"}
+  ],
+  "titleGenerala": [
+    {"lenguage": "es", "text": "Generala"},
+    {"lenguage": "en", "text": "Yahtzee"}
+  ],
+  "titleTruco": [
+    {"lenguage": "es", "text": "Truco"},
+    {"lenguage": "en", "text": "Truco"}
   ],
   "back": [
     {"lenguage": "es", "text": "Volver"},
@@ -27,6 +43,14 @@
     {"lenguage": "es", "text": "Sumar"},
     {"lenguage": "en", "text": "sum"}
   ],
+  "changeGame": [
+    {"lenguage": "es", "text": "Cambiar Juego"},
+    {"lenguage": "en", "text": "Change Game"}
+  ],
+  "newGame": [
+    {"lenguage": "es", "text": "Nueva Partida"},
+    {"lenguage": "en", "text": "New Game"}
+  ],
   "alertNegativeScore": [
     {"lenguage": "es", "text": "El puntaje no puede ser menor a 0"},
     {"lenguage": "en", "text": "The score can't be under 0"}
@@ -39,9 +63,17 @@
     {"lenguage": "es", "text": "Los puntajes de todos los jugadores volveran a 0, ¿estas seguro?"},
     {"lenguage": "en", "text": "Every player scores will go back to 0, are you sure?"}
   ],
+  "minimumScores": [
+    {"lenguage": "es", "text": "Debe haber al menos 2 jugadores para iniciar la partida"},
+    {"lenguage": "en", "text": "There must be at least 2 players to start the game"}
+  ],
   "finishEditing": [
     {"lenguage": "es", "text": "Terminar Editado"},
     {"lenguage": "en", "text": "Finish Editing"}
+  ],
+  "startGame": [
+    {"lenguage": "es", "text": "Iniciar Juego"},
+    {"lenguage": "en", "text": "Start Game"}
   ],
   "reseteScores": [
     {"lenguage": "es", "text": "Resetear Puntos"},
@@ -62,5 +94,41 @@
   "addPlayer": [
     {"lenguage": "es", "text": "Agregar Jugador"},
     {"lenguage": "en", "text": "Add Player"}
+  ],
+  "player": [
+    {"lenguage": "es", "text": "Jugador"},
+    {"lenguage": "en", "text": "Player"}
+  ],
+  "Yahtzee": [
+    {"lenguage": "es", "text": "Generala"},
+    {"lenguage": "en", "text": "Yahtzee"}
+  ],
+  "DoubleYahtzee": [
+    {"lenguage": "es", "text": "Doble Generala"},
+    {"lenguage": "en", "text": "Double Yahtzee"}
+  ],
+  "straight": [
+    {"lenguage": "es", "text": "Escalera"},
+    {"lenguage": "en", "text": "Straight"}
+  ],
+  "natural": [
+    {"lenguage": "es", "text": "Servida"},
+    {"lenguage": "en", "text": "On the first Roll"}
+  ],
+  "made": [
+    {"lenguage": "es", "text": "Armada"},
+    {"lenguage": "en", "text": "Made"}
+  ],
+  "scratch": [
+    {"lenguage": "es", "text": "Tachar"},
+    {"lenguage": "en", "text": "Scratch"}
+  ],
+  "us": [
+    {"lenguage": "es", "text": "Nosotros"},
+    {"lenguage": "en", "text": "Us"}
+  ],
+  "them": [
+    {"lenguage": "es", "text": "Ellos"},
+    {"lenguage": "en", "text": "Them"}
   ]
 }

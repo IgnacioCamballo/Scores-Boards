@@ -1,6 +1,7 @@
 import React from 'react'
-import { StyleProp, TouchableOpacity, TouchableWithoutFeedback, ViewStyle } from 'react-native'
-import theme from '../../theme/theme'
+import { StyleProp, TouchableOpacity, ViewStyle } from 'react-native'
+
+import theme from '@/theme/theme'
 
 type ButtonProps = {
   children: React.ReactNode,
@@ -23,6 +24,10 @@ export default function Button({children, press, color, width, style, disabled}:
         paddingVertical: 4,
         paddingHorizontal: 4,
         backgroundColor: color,
+        shadowColor: theme.color.black,
+        shadowOffset: { width: 2, height: 2 },
+        shadowOpacity: 0.6,
+        shadowRadius: 2,
         borderColor: theme.color.black,
         borderWidth: 1,
         borderRadius: 10},

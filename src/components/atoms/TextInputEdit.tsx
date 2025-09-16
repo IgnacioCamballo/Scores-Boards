@@ -1,15 +1,16 @@
 import React, { useState } from 'react'
 import { StyleSheet, TextInput } from 'react-native'
-import theme from '../../theme/theme'
-import { PlayerType } from '../../types'
-import useFarkle from '../../hooks/useFarkle'
 
-type textInputEditProps = {
-  player: PlayerType
+import { PlayerGeneralaType, PlayerType } from '@/types'
+import theme from '@/theme/theme'
+
+type textInputEditProps<T> = {
+  player: T,
+  players: T[],
+  setPlayers: React.Dispatch<React.SetStateAction<T[]>>
 }
 
-export default function TextInputEdit({player}: textInputEditProps) {
-  const {players, setPlayers} = useFarkle()
+export default function TextInputEdit<T extends PlayerType | PlayerGeneralaType>({player, players, setPlayers}: textInputEditProps<T>) {
 
   const [newName, setNewName] = useState("") 
 

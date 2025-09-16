@@ -1,25 +1,21 @@
-import { StatusBar, View, StyleSheet } from 'react-native';
-import {FarkleProvider} from './src/context/FarkleProvider';
-import Main from './src/pages/Main';
-import theme from './src/theme/theme';
+import React from 'react';
+import { StatusBar, View} from 'react-native';
+import { NativeRouter } from 'react-router-native';
 
-export default function App() {
-  
+import theme from '@/theme/theme';
+import Router from '@/navigation/Router';
+import { GeneralProvider } from '@/context/GeneralProvider';
+
+export default function App() {  
   return (
     <View>
-      <FarkleProvider>
-        <StatusBar backgroundColor={theme.color.base} />
-        <Main />
-      </FarkleProvider>
+      <NativeRouter>
+        <GeneralProvider>
+          <StatusBar backgroundColor={theme.color.base} />
+          <Router />
+        </GeneralProvider>
+      </NativeRouter>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  }
-});

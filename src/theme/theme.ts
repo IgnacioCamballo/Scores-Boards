@@ -5,12 +5,16 @@ const theme = {
     playersBase: "#049873",
     title: "#86D3A1",
     greenAddButton: "#1AAA65",
+    generalaBase: "#79b397ff",
+    generalaGreen: "#d2e2dbff",
     grey: "#D9D9D9",
+    darkGrey: "#646464ff",
     softGrey: "#EEEEEE",
     black: "#000",
     white: "#fff",
     redCancel: "#E2330E",
-    redDelete: "#E3664C"
+    redDelete: "#E3664C",
+    redGenerala: "#ff9582ff"
   },
   fontSize: {
     F16: 16,
@@ -20,8 +24,11 @@ const theme = {
     F28: 28
   },
   adds: {
-    test: "ca-app-pub-3940256099942544/9214589741",
-    banner: "ca-app-pub-4926030013898312/6007636699" 
+    // banner de prueba
+    // bannerFarkle: "ca-app-pub-3940256099942544/9214589741",
+    
+    // banner monetizado
+    bannerFarkle: "ca-app-pub-4926030013898312/6007636699" 
   }
 }
 

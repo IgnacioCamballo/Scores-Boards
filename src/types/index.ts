@@ -38,6 +38,7 @@ export type PlayerGeneralaType = {
     three: number,
     four: number,
     five: number,
+    six: number,
     straight: number,
     full: number,
     poker: number,

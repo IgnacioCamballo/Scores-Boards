@@ -20,6 +20,7 @@ export default function FirstColumn({ }: FirstColumnProps) {
       <Text style={styles.text}>3</Text>
       <Text style={styles.text}>4</Text>
       <Text style={styles.text}>5</Text>
+      <Text style={styles.text}>6</Text>
       <Text style={styles.text}>{translations.straight.find(i => i.lenguage === lenguage)?.text}</Text>
       <Text style={styles.text}>Full</Text>
       <Text style={styles.text}>Poker</Text>

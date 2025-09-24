@@ -1,4 +1,4 @@
-export default{
+export default {
   "expo": {
     "name": "Tablas de Puntos",
     "slug": "anotador-de-puntajes",
@@ -20,8 +20,8 @@ export default{
         "backgroundColor": "#09765B"
       },
       //cambiar entre el primero para produccion local y segundo para eas. El archivo debe estar cargado en la sesion de eas. de ahi se busca con el process.env desde el servidor eas
-      //"googleServicesFile": "./google-services.json",
-      "googleServicesFile": process.env.GOOGLE_SERVICES_JSON,
+      "googleServicesFile": "./google-services.json",
+      //"googleServicesFile": process.env.GOOGLE_SERVICES_JSON,
       "package": "com.Anotadordepuntaje"
     },
     "web": {
@@ -47,6 +47,17 @@ export default{
         {
           "androidAppId": "ca-app-pub-4926030013898312~7320718360",
           "iosAppId": "ca-app-pub-4926030013898312~8140812186"
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "kotlinVersion": "1.9.22",
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "minSdkVersion": 23
+          }
         }
       ]
     ]

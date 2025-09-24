@@ -11,7 +11,7 @@ type PlayerColumnProps = {
   player: PlayerGeneralaType,
 }
 
-type ScoreKey = "" | "one" | "two" | "three" | "four" | "five" | "straight" | "full" | "poker" | "generala" | "doubleGenerala"
+type ScoreKey = "" | "one" | "two" | "three" | "four" | "five" | "six" | "straight" | "full" | "poker" | "generala" | "doubleGenerala"
 
 export default function PlayerColumn({ player }: PlayerColumnProps) {
   const { players } = useGenerala()
@@ -91,6 +91,14 @@ export default function PlayerColumn({ player }: PlayerColumnProps) {
         style={[styles.touchable, {backgroundColor: variableBGColor(player.scores.five)}]}
       >
         <Text style={styles.text}>{variableValue(player.scores.five)}</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        onPress={() => setCurrentScore("six")}
+        activeOpacity={1}
+        style={[styles.touchable, {backgroundColor: variableBGColor(player.scores.six)}]}
+      >
+        <Text style={styles.text}>{variableValue(player.scores.six)}</Text>
       </TouchableOpacity>
 
       <TouchableOpacity

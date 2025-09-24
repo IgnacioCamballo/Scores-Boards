@@ -8,7 +8,7 @@ import { PlayerGeneralaType } from '@/types'
 import theme from '@/theme/theme'
 import translations from "@/lenguage/lenguage.json"
 
-type ScoreKey = "one" | "two" | "three" | "four" | "five" | "straight" | "full" | "poker" | "generala" | "doubleGenerala"
+type ScoreKey = "one" | "two" | "three" | "four" | "five" | "six" | "straight" | "full" | "poker" | "generala" | "doubleGenerala"
 
 type ModalScoreProps = {
   closeModal: () => void,
@@ -34,7 +34,9 @@ export default function ModalScore({ closeModal, player, currentScore }: ModalSc
     currentScore === "two" ? 2 :
     currentScore === "three" ? 3 :
     currentScore === "four" ? 4 :
-    currentScore === "five" ? 5 : 0
+    currentScore === "five" ? 5 :
+    currentScore === "six" ? 6 :
+    0
 
   const addSpecialScore = (type: "natural" | "made") => {
     let score = type === "natural" ? 5 : 0;
@@ -84,7 +86,6 @@ export default function ModalScore({ closeModal, player, currentScore }: ModalSc
               <Text onPress={() => addScore(optionsValue * 3)} style={styles.textOption}>{optionsValue * 3}</Text>  
               <Text onPress={() => addScore(optionsValue * 4)} style={styles.textOption}>{optionsValue * 4}</Text>
               <Text onPress={() => addScore(optionsValue * 5)} style={styles.textOption}>{optionsValue * 5}</Text>
-              <Text onPress={() => addScore(optionsValue * 6)} style={styles.textOption}>{optionsValue * 6}</Text>  
             </>
           }
           <Text onPress={() => addScore(0)} style={[styles.textOption, {backgroundColor: theme.color.generalaGreen}]}>-</Text>
